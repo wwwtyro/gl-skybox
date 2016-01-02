@@ -1,0 +1,35 @@
+{
+  "name": "gl-skybox",
+  "version": "1.0.0",
+  "description": "Draws a skybox into a 3D scene.",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo --live example/index.js -- -t glslify",
+    "test": "standard"
+  },
+  "keywords": [
+    "stackgl",
+    "skybox"
+  ],
+  "author": "Rye Terrell <ryeterrell@ryeterrell.net> (http://wwwtyro.github.io)",
+  "license": "Unlicense",
+  "devDependencies": {
+    "budo": "^7.1.0",
+    "bunny": "^1.0.1",
+    "gl-cubemap-placeholder": "^2.0.1",
+    "gl-geometry": "^1.3.0",
+    "gl-mat4": "^1.1.4",
+    "gl-shader": "^4.1.1",
+    "glslify": "^5.0.0",
+    "normals": "^1.0.1",
+    "standard": "^5.4.1"
+  },
+  "dependencies": {
+    "geo-3d-box": "^1.0.4",
+    "gl-geometry": "^1.3.0",
+    "gl-mat4": "^1.1.4",
+    "gl-shader": "^4.1.1",
+    "gl-state": "^1.0.0",
+    "glslify": "^5.0.0"
+  }
+}
