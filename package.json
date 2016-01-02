@@ -1,6 +1,6 @@
 {
   "name": "gl-skybox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Draws a skybox into a 3D scene.",
   "main": "index.js",
   "scripts": {
@@ -31,5 +31,21 @@
     "gl-shader": "^4.1.1",
     "gl-state": "^1.0.0",
     "glslify": "^5.0.0"
-  }
+  },
+  "directories": {
+    "example": "example"
+  },
+  "browserify": {
+    "transform": [
+      "glslify"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwwtyro/gl-skybox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wwwtyro/gl-skybox/issues"
+  },
+  "homepage": "https://github.com/wwwtyro/gl-skybox#readme"
 }

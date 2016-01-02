@@ -26,7 +26,6 @@ window.onload = function () {
   gl.cullFace(gl.BACK)
   gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, true)
 
-  console.log(bunny)
   var bunnyGeom = Geometry(gl)
   bunnyGeom.attr('aPosition', bunny.positions)
   bunnyGeom.attr('aNormal', normals.vertexNormals(bunny.cells, bunny.positions))
